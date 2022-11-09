@@ -55,7 +55,7 @@ class Nodo():
 
         toSend = str(self.xela0) + '|' + str(self.xela1) + '|' + str(self.xela2) + '|' + str(self.xela3) + '|' + str(self.xela4) + '|' + str(self.xela5) + '|'
         toSend = toSend + str(self.xela6) + '|' + str(self.xela7) + '|' + str(self.xela8) + '|' + str(self.xela9) + '|' + str(self.xela10) + '|' + str(self.xela11) + '|'
-        toSend = toSend + str(self.xela12) + '|' + str(self.xela13) + '|' + str(self.xela14) + '|' + str(self.xela15) + '|'
+        toSend = toSend + str(self.xela12) + '|' + str(self.xela13) + '|' + str(self.xela14) + '|' + str(self.xela15) + ']'
 
         try: 
             connection.send(str(toSend).encode('utf8')) # sending information 
