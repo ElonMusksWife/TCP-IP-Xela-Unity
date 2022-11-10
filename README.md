@@ -1,6 +1,7 @@
 # Force Visualization with Augmented Reality Hololens 
-## TCP/IP Xela Uskin and Unity
+## TCP/IP Xela Uskin
 
+### Demo Video representation
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/KWRH4xliJv8/0.jpg)](https://youtu.be/KWRH4xliJv8)
 
 
