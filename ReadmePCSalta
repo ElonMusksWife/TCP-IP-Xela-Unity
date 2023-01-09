@@ -18,3 +18,8 @@ rosrun xela_server xViz
 ~/test_ws$ source devel/setup.bash
 catkin build -DCMAKE_BUILD_TYPE=Release -DFranka_DIR:PATH=/home/arms/libfranka/build
 roslaunch franka_example_controllers cartesian_velocity_example_controller.launch robot_ip :=172.16.0.2
+
+
+TODO:
+Hardware xela
+take values from Franka messages
