@@ -1,0 +1,20 @@
+Salta's PC 
+
+0) Franka
+https://172.16.0.2/desk/
+
+1) move to start
+~/nurda_ws$ roslaunch franka_example_controllers move_to_start.launch robot_ip:=172.16.0.2
+
+2) Xela as usual for Melodic in test_ws/
+sudo ip link set can0 type can bitrate 1000000
+sudo ip link set up can0
+rosrun xela_server xConf
+roscore
+rosrun xela_server xSensorService
+rosrun xela_server xViz
+
+3) Franka control
+~/test_ws$ source devel/setup.bash
+catkin build -DCMAKE_BUILD_TYPE=Release -DFranka_DIR:PATH=/home/arms/libfranka/build
+roslaunch franka_example_controllers cartesian_velocity_example_controller.launch robot_ip :=172.16.0.2
