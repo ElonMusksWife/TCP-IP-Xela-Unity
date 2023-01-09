@@ -9,6 +9,7 @@ https://172.16.0.2/desk/
 2) Xela as usual for Melodic in test_ws/
 sudo ip link set can0 type can bitrate 1000000
 sudo ip link set up can0
+rosrun xela_server xServer
 rosrun xela_server xConf
 roscore
 rosrun xela_server xSensorService
@@ -21,5 +22,6 @@ roslaunch franka_example_controllers cartesian_velocity_example_controller.launc
 
 
 TODO:
-Hardware xela
-take values from Franka messages
+Hardware xela done
+take values from Franka messages 
+connect to AR PC and send messages from XEla and Franka as a JSON 
