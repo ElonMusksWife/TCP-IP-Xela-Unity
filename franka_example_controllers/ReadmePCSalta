@@ -46,3 +46,8 @@ connect to AR PC and send messages from XEla and Franka as a JSON
 /tf
 /tf_static
 /xServerPub
+
+
+*) to kill the process
+ps aux | grep xela
+sudo kill -9 pin_number_found_from_before
