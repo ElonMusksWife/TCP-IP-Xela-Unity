@@ -25,3 +25,24 @@ TODO:
 Hardware xela done
 take values from Franka messages 
 connect to AR PC and send messages from XEla and Franka as a JSON 
+
+
+*) rostopic list when the velocity is running
+
+/collection_in_progress
+/franka_control/error_recovery/cancel
+/franka_control/error_recovery/feedback
+/franka_control/error_recovery/goal
+/franka_control/error_recovery/result
+/franka_control/error_recovery/status
+/franka_state_controller/F_ext
+/franka_state_controller/franka_states
+/franka_state_controller/joint_states
+/franka_state_controller/joint_states_desired
+/joint_states
+/joint_states_desired
+/rosout
+/rosout_agg
+/tf
+/tf_static
+/xServerPub
